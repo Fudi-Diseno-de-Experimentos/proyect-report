@@ -2,17 +2,160 @@
 
 ## 4.1. Style Guidelines.
 ### 4.1.1. General Style Guidelines.
+
+<p style="text-indent: 1.25cm;">La presente sección establece las bases visuales y conceptuales que rigen la identidad de Centralis, funcionando como un repositorio central de diseño para asegurar una experiencia de usuario coherente, profesional y enfocada. El objetivo principal de estas guías es consolidar los elementos fundamentales del sistema, tales como la marca, la paleta cromática y la tipografía, permitiendo que todos los miembros del equipo mantengan una presentación visual consistente en los diversos productos digitales de la plataforma.
+
+<p style="text-indent: 1.25cm;">A través de la definición de estos estándares, se busca no solo fortalecer el reconocimiento de la marca, sino también garantizar la legibilidad y accesibilidad de las interfaces. De este modo, las decisiones de diseño aquí detalladas responden a un análisis de los principios de comunicación y lenguaje adoptados por la startup, asegurando que cada interacción dentro de la plataforma sea fluida y transmita los valores de eficiencia y seguridad del entorno corporativo.
+
+**Paleta de Colores**
+
+<p style="text-indent: 1.25cm;">La selección cromática se fundamenta en una escala monocromática de azules, que ha sido elegida para proyectar estabilidad, seguridad y tecnología. Según la paleta de colores implementada, se utiliza el tono Blue-500 (#5d737e) como color primario para elementos de acción y navegación, mientras que el Blue-900 (#273035) define los contrastes más profundos para fondos y textos de alta jerarquía. El uso de tonos claros, como el Blue-50, facilita la creación de interfaces limpias y espaciosas en los campos de entrada de datos. Cabe destacar que esta elección no es puramente estética; se ha validado que los contrastes entre los tonos oscuros y los fondos claros cumplen con los estándares de accesibilidad WCAG (AAA), permitiendo una lectura óptima para todos los usuarios.
+
+<p align="center">
+  <img src="https://i.imgur.com/8QCPwd5.png" alt="Description">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Tipografía y Fuente **
+
+<p style="text-indent: 1.25cm;">Para la tipografía, se ha optado por una fuente de tipo "Sans Serif" de estilo geométrico y moderno, lo que garantiza una legibilidad excepcional en dispositivos móviles y navegadores web. La jerarquía visual se establece mediante el uso de pesos: los encabezados y títulos de las aplicaciones utilizan un peso mayor ("Bold") para destacar la identidad de la sección, mientras que el cuerpo del texto emplea pesos ligeros para priorizar la claridad del contenido. Esta decisión tipográfica responde a la arquitectura de la información, donde la simplicidad de las etiquetas y el sistema de rotulado buscan evitar confusiones en los visitantes y usuarios finales de la plataforma.
+
+
+<p align="center">
+  <img src="https://i.imgur.com/U6iq9Xo.png" alt="Description">
+</p>
+
+*Nota.* Elaboración propia.
+
+**Identidad Logométrica**
+
+<p style="text-indent: 1.25cm;">El logotipo de Centralis funciona como la pieza central del branding y representa el flujo constante de información dentro de una organización. El isotipo utiliza formas geométricas interconectadas y flechas direccionales integradas en un ciclo infinito, simbolizando la retroalimentación y la comunicación bidireccional entre los distintos niveles jerárquicos. Visualmente, el logo se presenta dentro de un contenedor redondeado con un degradado de azul profundo que refuerza la identidad tecnológica del producto. Esta simbología es coherente con el lenguaje ubicuo del proyecto, actuando como un identificador visual inmediato para la entidad de la compañía y sus procesos de negocio.
+
+
+<p align="center">
+  <img src="https://i.imgur.com/NQ3HtCj.png" alt="Description">
+</p>
+
+*Nota.* Elaboración propia.
+
 ### 4.1.2. Mobile Style Guidelines.
+
+#### 4.1.2.1. iOS Mobile Style Guidelines. 
+
+<p style="text-indent: 1.25cm;">En esta sección se describen las directrices de estilo aplicadas para dispositivos con sistema operativo iOS. Aunque la aplicación se desarrolla utilizando el framework "Flutter" para garantizar la consistencia visual, el diseño respeta principios clave de las "Human Interface Guidelines" de Apple para asegurar que los usuarios de iOS se sientan familiarizados con la navegación.
+
+- **Adaptación de Componentes:** Se utilizan bordes redondeados pronunciados en botones y contenedores, alineados con la estética de iOS.
+- **Iconografía:** Se emplean iconos de trazo fino y minimalista que mantienen la claridad incluso en densidades de pantalla Retina.
+- **Tipografía:** La fuente Sans Serif se ajusta en escala para cumplir con los estándares de legibilidad de Apple, priorizando el espacio en blanco para evitar la saturación visual.
+
+<p align="center">
+  <img src="https://i.imgur.com/UwhDTMb.png" alt="Description">
+</p>
+
+
+
+#### 4.1.2.2. Android Mobile Style Guidelines
+
+<p style="text-indent: 1.25cm;">Para la plataforma Android, las directrices de estilo se fundamentan en "Material Design", tal como lo requiere la documentación técnica del proyecto. Al ser una aplicación desarrollada en "Flutter", se aprovecha el catálogo de componentes de "Material" para ofrecer una interfaz táctil altamente eficiente.
+
+- **Jerarquía de Colores:** Se aplica la paleta de azules de la startup, utilizando elevaciones y sombras sutiles para diferenciar las capas de la interfaz (anuncios, chats y perfiles).
+- **Interacción Táctil:** Los elementos de acción cuentan con áreas de contacto amplias (mínimo 48dp) para cumplir con los estándares de accesibilidad y diseño inclusivo.
+- **Navegación:** Se implementa una estructura de navegación clara, facilitando el acceso a las funciones de "Company" mediante gestos naturales del sistema operativo.
+
+
+<p align="center">
+  <img src="https://i.imgur.com/XiTZj3L.png" alt="Description">
+</p>
+
+
 ## 4.2. Information Architecture.
 
 ### 4.2.1. Organization Systems.
+
+<p style="text-indent: 1.25cm;">En esta sección se detallan las decisiones de diseño que dirigen la organización del contenido en la aplicación móvil de Centralis, orientadas a que los miembros de la Company encuentren la información necesaria sin esfuerzo. Se aplican esquemas que responden a la naturaleza corporativa del producto y a la jerarquía de roles establecida.
+**1. Organización Jerárquica (Visual Hierarchy)**
+
+<p style="text-indent: 1.25cm;">Se implementa para establecer una relación de importancia entre los elementos y guiar la atención hacia la información crítica de la organización.
+
+- **Identidad Corporativa:** El logo y nombre de la **Company** se sitúan en el nivel jerárquico superior de la interfaz para reforzar el sentido de pertenencia.
+- **Priorización de Contenido:** En los listados de anuncios, se utiliza un contraste tipográfico mayor (negrita y color Blue-900) para los títulos y etiquetas de prioridad (High, Urgent), relegando los metadatos de fecha y autor a un segundo plano visual.
+- **Perfiles Profesionales:** La información se organiza priorizando el nombre del usuario y su cargo (*Position*), seguidos por detalles secundarios como el departamento.
+
+**2. Organización Secuencial (Step-by-step)**
+
+<p style="text-indent: 1.25cm;">Este sistema se aplica en flujos lógicos donde el usuario debe completar pasos específicos para cumplir un objetivo.
+
+- **Registro de la Company:** El flujo guía al **Manager** desde la validación del RUC hasta la carga del logo y creación del perfil administrativo en pasos lineales y obligatorios.
+- **Creación de Entidades:** La publicación de anuncios y eventos sigue un orden vertical descendente, facilitando el ingreso de datos en pantallas móviles.
+- **Autenticación:** El proceso de registro e inicio de sesión se presenta como una secuencia de pasos necesarios para garantizar la seguridad de la cuenta.
+
+**3. Organización por Esquemas de Categorización**
+
+<p style="text-indent: 1.25cm;">Se aplican esquemas específicos para categorizar el contenido según el dominio del negocio:
+
+- **Por Tópicos (Temática):** El contenido se divide en los dominios principales de la plataforma: Gestión (*Management*), Comunicaciones (*Announcements*), Colaboración (*Chats*) y Logística (*Events*).
+- **Cronológica:** Los anuncios y mensajes de chat se organizan temporalmente, mostrando la información más reciente para asegurar la vigencia del mensaje.
+- **Por Audiencia (Role-based):** La interfaz organiza las opciones de navegación según los permisos; los **Managers** visualizan herramientas de control y métricas, mientras que los **Employees** acceden a funciones de interacción y consumo.
+- **Alfabética:** Se utiliza exclusivamente en el directorio de miembros de la **Company** y en la búsqueda de departamentos para agilizar la localización de contactos específicos.
+
+<p style="text-indent: 1.25cm;">La integración de estos sistemas de organización permite que Centralis funcione como un entorno aislado y eficiente, manteniendo la coherencia estética y funcional en todas las vistas de la aplicación.
+
+
 ### 4.2.2. Labeling Systems.
+
+<p style="text-indent: 1.25cm;">El sistema de etiquetado en Centralis tiene como objetivo principal representar los datos y asociaciones de información de manera que se evite la confusión para los visitantes y usuarios finales. Para lograr una navegación intuitiva, se han especificado etiquetas con el mínimo número de palabras posible para representar conjuntos de información y las acciones disponibles dentro de la plataforma.
+
+**1. Principios de Etiquetado**
+
+- **Precisión Organizacional:** Se utilizan términos que reflejan la estructura jerárquica de la empresa (ej. *Company*, *Department*, *Position*).
+- **Accionabilidad:** Las etiquetas de control utilizan verbos en infinitivo que describen resultados directos, minimizando el error humano.
+- **Consistencia de Dominio:** En cumplimiento con la arquitectura **DDD**, se mantiene una uniformidad terminológica entre los componentes del sistema (backend) y las etiquetas de la interfaz (frontend).
+
+**2. Categorías de Etiquetas y Aplicación**
+
+**A. Navegación y Estructura Global** Representan los contextos de nivel superior accesibles desde la barra de navegación principal:
+
+- **Announcements:** Centraliza el flujo de noticias y comunicados oficiales.
+- **Events:** Gestiona la agenda de actividades y reuniones corporativas.
+- **Chats:** Engloba los canales de comunicación colaborativa.
+- **Management / Company:** Etiqueta exclusiva para perfiles administrativos que agrupa herramientas de gestión de la organización y métricas.
+- **Profile:** Contiene la identidad profesional y configuración del usuario.
+
+**B. Gestión de la Entidad "Company"** Etiquetas específicas introducidas para el soporte de múltiples organizaciones:
+
+- **Register Company:** Proceso de alta de una nueva entidad legal.
+- **Company ID / RUC:** Identificadores únicos para la validación de la empresa.
+- **Join Company:** Flujo de ingreso para empleados mediante invitación o código.
+- **Active Status:** Indicador de vigencia operativa de la organización.
+
+**C. Títulos de Acción y Contexto** Definen el propósito de la pantalla actual y el alcance de la tarea:
+
+- **Create Announcement:** Indica la apertura del editor de noticias.
+- **Event Logistics:** Señala la visualización de detalles de ubicación y horario.
+- **Group Settings:** Permite la administración de visibilidad y miembros de un chat.
+- **Organization Dashboard:** Identifica el panel de control con métricas de lectura y participación.
+
+**D. Etiquetas de Formulario e Inputs** Guían la entrada de datos mediante descriptores técnicos concisos:
+
+- **Priority Level (Normal, High, Urgent):** Clasificación del impacto de un mensaje.
+- **Position / Role:** Define el nivel de permisos (Manager, Employee, Director).
+- **Department Name:** Identifica el área funcional dentro de la empresa.
+- **Visibility (Public/Private):** Define el alcance de acceso a grupos de chat.
+
+**E. Botones de Acción y Estado** Utilizan un lenguaje directo basado en los casos de uso del sistema:
+
+- **Publish / Discard:** Para la gestión del ciclo de vida de anuncios.
+- **Confirm Attendance:** Para la validación de participación en eventos.
+- **Mark as Read:** Etiqueta de confirmación de recepción para el empleado.
+- **Register / Sign In:** Acciones de acceso y creación de cuenta.
+
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 <p style="text-indent: 1.25cm;">Los meta tags y etiquetas SEO son elementos fundamentales dentro de la sección "`<head>`" de cualquier página web, ya que permiten controlar cómo es interpretado, indexado y presentado el contenido de un sitio por parte de los motores de búsqueda (como Google) y las redes sociales (como Facebook o Twitter). Estas etiquetas no son visibles directamente por los usuarios, pero influyen de manera determinante en la forma en que una página se posiciona y aparece en los resultados de búsqueda, así como en la claridad con la que comunica su propósito al compartir enlaces.
 
 <p style="text-indent: 1.25cm;">En el desarrollo de la plataforma Centralis, se han implementado meta etiquetas específicas para cada archivo HTML clave de la landing page con el fin de garantizar una correcta indexación, visibilidad en buscadores, claridad semántica y una presentación visualmente coherente al momento de compartir los enlaces en redes sociales. Estas prácticas fortalecen la identidad de marca y optimizan la experiencia de descubrimiento para nuevos usuarios.
-
 **Figura 49**
 
 *SEO tag and Meta tags*
@@ -20,9 +163,7 @@
 <p align="center">
   <img src="https://i.imgur.com/hECft8E.png" alt="Descripción">
 </p>
-
 *Nota.* Elaboración propia.
-
 
 
 **Estrategia SEO**
@@ -32,6 +173,7 @@
 - **Audiencia objetivo**: Gerentes de empresas, departamentos de RH, equipos de TI corporativos
 
 <p style="text-indent: 1.25cm;">Esta implementación de SEO tags y meta tags asegura que Centralis tenga una presencia óptima en motores de búsqueda y redes sociales, facilitando el descubrimiento orgánico y mejorando la conversión de visitantes en usuarios de la aplicación.
+
 
 ### 4.2.4. Searching Systems.
 
