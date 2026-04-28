@@ -28,14 +28,12 @@
 
 | Foto del estudiante | Nombres y apellidos                    | Código de estudiante | Descripción |
 | ------------------- | -------------------------------------- | -------------------- | ----------- |
-develop
+|develop||||
 |                     | Aguirre Castillo Sergio Cesar          | u202310425           |             |
-=======
 |<img width="120" height="120" alt="image" src="https://github.com/user-attachments/assets/fec79da1-1e9c-43b4-a5c1-b9b3c79f808c" />| Aguirre Castillo Sergio Cesar          | u202310425           | Estudiante de 7.º ciclo de Ingeniería de Software con alta capacidad de adaptación y pasión por el aprendizaje continuo. Cuento con experiencia versátil en múltiples lenguajes de programación (Python, C++, PHP, C#, Java, JavaScript), respaldada por bases sólidas en desarrollo web (HTML, CSS) y gestión de bases de datos relacionales (MySQL). Me enfoco en asimilar nuevas tecnologías rápidamente para resolver problemas complejos, afrontar retos profesionales y aportar valor en diversos entornos de desarrollo.           |
-main
 |                     | Bellido Salas Raúl                     |                      |             |
-|                     | Contreras Peralta Fabrizio Alessandro  | u202319889           |             |
-|                     | Curipaco Huayllani Neil Aldrin Wilhelm | u20231b866           |             |
+|                     | Contreras Peralta Fabrizio Alessandro  | u202319889           |  |
+| <img src="https://i.imgur.com/sIJeKLO.png" alt="Neil Curipaco" width="100"> | Curipaco Huayllani Neil Aldrin Wilhelm | u20231b866           | Soy Neil Curipaco Huayllani. Estoy cursando el 7to ciclo de la carrera de Ingeniería de Software en la UPC. Me gusta jugar videojuegos, aprender cosas nuevas, escuchar música y mejorar mis habilidades para ser de ayuda en el equipo de trabajo del que formo parte. |
 |                     | Heredia Hoyos Danitza Ivonne           |                      |             |
 
 
@@ -190,7 +188,6 @@ main
 <p align="center">
   <img src="https://res.cloudinary.com/df8xwy4xb/image/upload/v1758222302/LeanUX_canvas_v5_m2oahq.png" alt="Class Diagram">
 </p>
-
 *Nota.* Elaboración propia. Link de la imagen: Lean UX Canvas  https://acortar.link/7r4p4d
 
 

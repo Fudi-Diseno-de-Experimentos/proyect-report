@@ -174,10 +174,143 @@
 
 <p style="text-indent: 1.25cm;">Esta implementación de SEO tags y meta tags asegura que Centralis tenga una presencia óptima en motores de búsqueda y redes sociales, facilitando el descubrimiento orgánico y mejorando la conversión de visitantes en usuarios de la aplicación.
 
+​    
 
 ### 4.2.4. Searching Systems.
 
+<p style="text-indent: 1.25cm;">El sistema de búsqueda de Centralis tiene como objetivo principal evitar que los usuarios se sientan perdidos ante el volumen de información generado dentro de su organización. Se han diseñado mecanismos de recuperación de datos específicos que permiten localizar activos de comunicación y perfiles profesionales de manera ágil, garantizando que los resultados siempre estén confinados al alcance de la Company del usuario.  
+**1. Opciones y Escenarios de Búsqueda**
+
+<p style="text-indent: 1.25cm;">El sistema implementa capacidades de búsqueda en tres contextos críticos identificados en el flujo operativo:
+
+- **Directorio de Miembros:** Permite localizar colegas por nombre o cargo para facilitar el contacto directo y la visualización de perfiles profesionales.
+- **Gestión de Audiencias:** Utilizado por los **Managers** durante la creación de **Events** o **Groups** para seleccionar destinatarios específicos de forma masiva o individual.
+- **Repositorio de Comunicaciones:** Localización de **Announcements** históricos mediante palabras clave contenidas en el título o descripción.
+
+*Search Bar Material Design 3*
+
+<p align="center">
+  <img src="https://i.imgur.com/E8nZ3f8.png" alt="Descripción">
+</p>
+
+
+
+**2. Filtros y Criterios de Recuperación**
+
+<p style="text-indent: 1.25cm;">Para refinar los resultados y mejorar la precisión, el usuario cuenta con los siguientes filtros basados en los esquemas de organización del sistema:
+
+- **Filtro por Departamento:** Permite segmentar las búsquedas para mostrar solo miembros pertenecientes a áreas específicas (ej. TI, Recursos Humanos).
+- **Filtro por Prioridad:** En el caso de los anuncios, permite recuperar únicamente aquellos marcados como *High* o *Urgent*.
+- **Filtro de Visibilidad:** Clasificación de grupos de chat en categorías de *Public* o *Private*.
+
+*Filter Chips Material Design 3*
+
+<p align="center">
+  <img src="https://i.imgur.com/v0lBwfW.png" alt="Descripción">
+</p>
+
+
+
+**3. Visualización y Estados de los Datos**
+
+<p style="text-indent: 1.25cm;">La interfaz de búsqueda ha sido diseñada siguiendo los principios de **Material Design** para asegurar una respuesta visual coherente:
+
+- **Búsqueda en Tiempo Real:** Los resultados se actualizan dinámicamente mediante el patrón *Search-as-you-type*, reduciendo la latencia percibida por el usuario.
+- **Visualización de Resultados:** Los datos se presentan en forma de *Lists* o *Cards*, mostrando el nombre, cargo y avatar para una identificación visual rápida.
+- **Empty States (Estados Vacíos):** En caso de no encontrar coincidencias, el sistema muestra una ilustración amigable con la etiqueta "No results found", evitando la confusión del usuario frente a una pantalla en blanco.
+
+*Search Results List Material Design 3*
+
+<p align="center">
+  <img src="https://i.imgur.com/6KQcKBU.png" alt="Descripción">
+</p>
+
+
+
+<p style="text-indent: 1.25cm;">La Landing Page de Centralis está diseñada como una página de presentación estática cuyo propósito principal es proporcionar información esencial sobre la aplicación y dirigir a los usuarios hacia las plataformas de descarga. Dada su naturaleza informativa y la limitada cantidad de contenido, no se implementa un sistema de búsqueda por las siguientes razones:
+
+- **Volumen de contenido reducido:** La Landing Page contiene únicamente secciones clave (valor proposition, características, testimonios, llamados a la acción) que pueden recorrerse completamente mediante scroll tradicional.
+- **Propósito orientado a la conversión:** El objetivo principal es guiar al usuario hacia la descarga de la aplicación, no proporcionar acceso a bases de datos extensas o contenido complejo que requiera mecanismos de búsqueda.
+- **Experiencia lineal planificada:** El contenido está estructurado para ser consumido de manera secuencial, presentando la información en un orden lógico que maximiza la comprensión y el engagement.
+
+<p style="text-indent: 1.25cm;">Este sistema de búsqueda está optimizado para los casos de uso más frecuentes en Centralis, permitiendo a los gerentes completar sus tareas de selección de personal de manera rápida y sin distracciones, mientras mantiene una interfaz limpia y comprensible. 
+
 ### 4.2.5. Navigation Systems.
+
+**1. Navegación Principal **
+
+Constituye el eje de movimiento entre los contextos delimitados de la aplicación mediante una **Navigation Bar** persistente (Material Design 3):
+
+- **Estructura de Secciones:** Acceso directo a *Announcements*, *Events*, *Chats* y *Profile*.
+- **Navegación por Roles:** Para usuarios con rol de **Manager**, se habilita dinámicamente el acceso al *Management Dashboard* para la gestión de la organización.
+- **Indicadores de Estado:** Uso de estados activos (*Active states*) con contenedores de color para indicar la sección actual, reduciendo la carga cognitiva.
+
+
+
+*Navigation bar Material Design 3*
+
+<p align="center">
+  <img src="https://i.imgur.com/ckYxcdu.png" alt="Descripción">
+</p>
+
+
+
+
+
+**2. Navegación Jerárquica y de Profundidad**
+
+Permite el tránsito desde vistas de resumen hacia el detalle técnico de cada entidad:
+
+- **Flujo Drill-down:** Los usuarios acceden a los detalles de un anuncio o evento mediante gestos de toque en las *Cards* de la lista principal.
+- **Navegación de Retorno:** Implementación de una *Back Button* estandarizada en la **Top App Bar** y soporte para gestos nativos de retroceso en iOS y Android (vía Flutter *PopScope*).
+- **Migas de Pan (Breadcrumbs) Lógicas:** El sistema preserva el estado de filtrado y scroll al retornar a una vista de lista anterior.
+
+
+
+*Top App Bar Material Design 3*
+
+<p align="center">
+  <img src="https://i.imgur.com/fYUIpnU.png" alt="Descripción">
+</p>
+
+
+
+**3. Navegación Contextual y Acciones Flotantes**
+
+Optimiza la ejecución de tareas críticas según la vista activa:
+
+- **Floating Action Button (FAB):** Ubicado estratégicamente en la esquina inferior derecha para acciones de creación (ej. publicar anuncio o crear grupo de chat) en pantallas de gestión.
+- **Top App Bar Actions:** Iconos contextuales para filtrado por departamentos, búsqueda avanzada y acceso a notificaciones push pendientes.
+
+
+
+*Floating Action Button Material Design 3*
+
+<p align="center">
+  <img src="https://i.imgur.com/NJr1P5S.png" alt="Descripción">
+</p>
+
+
+
+
+
+**4. Navegación Secuencial (Task-flow Navigation)**
+
+Diseñada para procesos transaccionales que requieren una progresión lógica:
+
+- **Onboarding y Multi-tenancy:** Flujo guiado para el registro de una nueva **Company**, validación de datos legales y configuración inicial.
+- **Steppers de Creación:** Los formularios complejos se dividen en pasos lógicos (ej. Datos generales -> Selección de destinatarios -> Confirmación).
+
+**5. Sistema de Navegación para Landing Page**
+
+La página de aterrizaje utiliza un sistema simplificado orientado a la conversión y exposición del producto:
+
+- **Scroll Unidireccional:** Navegación vertical continua que guía al visitante a través de la propuesta de valor, características y planes de precios.
+- **Sticky Navigation Bar:** Un menú superior persistente que permite el salto rápido entre secciones (Features, Pricing, About Us) y botones de *Call to Action* (CTA) para el registro de empresas.
+- **Navegación Adaptativa:** Menú lateral (*Drawer*) para resoluciones móviles, garantizando la accesibilidad en cualquier dispositivo.
+
+
+
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
 ### 4.3.2. Landing Page Mock-up.
@@ -385,6 +518,20 @@ Todas las entidades principales (`Announcement`, `Comment`, `Group`, `Event`, `P
 
 ## 4.10. Database Design.
 ### 4.10.1. Relational/Non-Relational Database Diagram.
+
+<p style="text-indent: 1.25cm;">La persistencia de datos en Centralis se ha diseñado mediante un modelo relacional que refleja fielmente los contextos delimitados identificados en la arquitectura de software. Este diseño garantiza la integridad referencial y el aislamiento de la información entre las distintas organizaciones que utilizan la plataforma. El esquema utiliza un enfoque de multi-tenancy basado en identificadores de compañía (`company_id`), permitiendo que una única instancia de base de datos soporte a múltiples empresas de forma segura y eficiente.
+
+**Explicación del Diagrama de Base de Datos**
+
+<p style="text-indent: 1.25cm;">El modelo de datos se organiza en esquemas que corresponden a los Bounded Contexts del dominio, asegurando una separación clara de responsabilidades:
+
+- **Esquema Company:** Es el núcleo del sistema. Contiene la tabla `companies`, donde se registran los datos legales (RUC) y de marca de cada organización. Es la entidad raíz de la que dependen todos los demás datos del sistema.
+- **Esquema Profile:** Gestiona la identidad de los usuarios dentro de una compañía específica. Incluye tablas para perfiles, departamentos y posiciones jerárquicas, permitiendo definir roles como **Manager** o **Employee**.
+- **Esquema Announcement:** Maneja la comunicación oficial. La tabla principal de anuncios se vincula tanto al creador (Manager) como a la compañía, permitiendo además la persistencia de comentarios y niveles de prioridad para las notificaciones.
+- **Esquema Chat:** Diseñado para la colaboración en tiempo real. Almacena grupos, mensajes de texto y referencias a recursos multimedia (imágenes). Este esquema está optimizado para consultas rápidas de historial de mensajes.
+- **Esquema Event:** Administra la logística de actividades. Utiliza una tabla intermedia (`event_recipients`) para gestionar la relación de muchos a muchos entre los eventos programados y los usuarios invitados.
+
+<p style="text-indent: 1.25cm;">Este diseño relacional permite que Centralis mantenga una alta consistencia en los datos, facilitando la generación de métricas en los dashboards administrativos y asegurando que cada usuario acceda exclusivamente a la información perteneciente a su organización.
 
 
 
