@@ -4,15 +4,15 @@ Capítulo 4:
 [x] 4.1.2.
 [x] 4.2.1.
 [x ] 4.2.2.
-[ ] 4.2.4.
-[ ] 4.2.5.
+[x] 4.2.4.
+[x] 4.2.5.
 [ ] 4.3.1.
 [ ] 4.3.2.
 [ ] 4.4.1.
 [ ] 4.4.2.
 [ ] 4.4.3.
 [ ] 4.4.4.
-[ x] 4.10.1. Relational/Non-Relational Database Diagram.
+[x] 4.10.1. Relational/Non-Relational Database Diagram.
 Capítulo 5
 [ ] 5.1.
 [ ] 5.2.
