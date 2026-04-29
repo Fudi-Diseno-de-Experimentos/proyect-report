@@ -319,48 +319,47 @@ La página de aterrizaje utiliza un sistema simplificado orientado a la conversi
 
 Pantalla de Login: Interfaz de acceso con campos para correo y contraseña, incluyendo opciones para recuperación de cuenta y acceso directo al registro de nuevos usuarios.
  
-
-![alt text](image.png)
+<img width="550" height="1147" alt="image" src="https://github.com/user-attachments/assets/85a7a325-8c4e-4fce-841b-77f74e764fc1" />
 
 Pantalla de Registro: Formulario de creación de cuenta que solicita nombre, correo y contraseña, con una casilla de verificación para la aceptación de términos y políticas legales.
- 
 
-![alt text](image-1.png)
+ 
+<img width="548" height="1130" alt="image" src="https://github.com/user-attachments/assets/a2f5ae9a-536b-44e2-adbd-b3f15be4b457" />
 
 
 Pantalla de Verificación: Paso de seguridad que requiere un código OTP de 5 dígitos enviado al correo electrónico para validar la identidad del usuario antes de ingresar.
  
 
-![alt text](image-2.png)
+<img width="523" height="1136" alt="image" src="https://github.com/user-attachments/assets/941f1361-08d0-49ea-81c1-f4871e326fb8" />
 
 
 Pantalla de Home: Panel principal que centraliza el acceso a chats recientes, un carrusel de anuncios destacados de la empresa y una lista de eventos programados.
  
 
-![alt text](image-3.png)
+<img width="527" height="1152" alt="image" src="https://github.com/user-attachments/assets/30c0aa64-f5a8-4066-995f-4c3fc266cde3" />
 
 
 Pantalla de Company Feed (General): Muro informativo con buscador y filtros para alternar entre anuncios y eventos, destacando las noticias más importantes de la organización.
  
-![alt text](image-5.png)
+<img width="364" height="1334" alt="image" src="https://github.com/user-attachments/assets/300093cd-52a5-4e93-9cdc-07175fc8af29" />
 
 
 Sección de Actividad Reciente: Historial cronológico de publicaciones categorizadas por etiquetas (como General o Tech Stack), que permite seguir el flujo diario de actualizaciones del equipo.
  
 
-![alt text](image-6.png)
+<img width="416" height="905" alt="image" src="https://github.com/user-attachments/assets/b20e186c-8190-46e6-9074-3f6f1691ff64" />
 
 
 
 Vista detallada del usuario que muestra su avatar, cargo e información de contacto corporativa (correo, teléfono y ubicación). Además, incluye una sección de biografía, métricas destacadas (como proyectos e integrantes gestionados) y un registro de sus actividades o logros recientes.
 
 
-![alt text](image-7.png)
+<img width="417" height="1338" alt="image" src="https://github.com/user-attachments/assets/8fb16bdb-f690-46fb-89b2-d46e2f0afa15" />
 
 
 Esta vista especializada organiza la agenda corporativa mediante un selector de fechas semanal interactivo y una lista de tarjetas con los eventos próximos. Cada tarjeta detalla información clave como la lista de asistentes y la ubicación (ya sea presencial o mediante enlaces a Google Meet), concluyendo con un bloque integrado que permite a los usuarios proponer y crear nuevas actividades.
  
-![alt text](image-8.png)
+<img width="513" height="1342" alt="image" src="https://github.com/user-attachments/assets/a3c194d2-bf92-4376-8791-ecad8c834878" />
 
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams.
