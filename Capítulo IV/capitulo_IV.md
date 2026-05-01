@@ -379,6 +379,8 @@ Representa el cierre estratégico del wireframe para fomentar la conversión y a
 
 ### 4.3.2. Landing Page Mock-up.
 
+<p style="text-indent: 1.25cm;">A continuación, se detallan las secciones finales del diseño, donde la estética inspirada en la simplicidad de herramientas de colaboración líderes se combina con la robustez funcional de la plataforma.
+
 **Sección Hero**
 
 En esta versión final, la cabecera utiliza un diseño limpio con un fuerte enfoque en la fotografía de producto.
