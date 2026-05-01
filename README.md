@@ -33,7 +33,7 @@
   <p style="margin: 4px 0;"><code>U202</code> - Bellido Salas Raúl</p>
   <p style="margin: 4px 0;"><code>u202319889</code> - Contreras Peralta, Fabrizio Alessandro</p>
   <p style="margin: 4px 0;"><code>U20231B866</code> - Curipaco Huayllani, Neil Aldrin Wilhelm</p>
-  <p style="margin: 4px 0;"><code>u202</code> - Heredia Hoyos Danitza Ivonne</p>
+  <p style="margin: 4px 0;"><code>u201910803</code> - Heredia Hoyos, Danitza Ivonne</p>
 
   <p style="margin-top: 25px;"><strong>Lima - abril 2026</strong></p>
 
