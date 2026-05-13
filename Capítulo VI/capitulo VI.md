@@ -82,25 +82,28 @@ Se realizó un test automatizado utilizando Selenium IDE para verificar el corre
 
 **Web Service**
 
-A nivel de implementación (`MultiTenancyAndFlowIntegrationTests`), estas pruebas simulan un entorno más cercano al escenario de producción utilizando el framework Spring Boot y bases de datos en memoria (H2). Se han verificado exitosamente dos ejes críticos mediante pruebas automatizadas:
+A nivel de implementación (`MultiTenancyAndFlowIntegrationTests`), se han verificado satisfactoriamente los siguientes escenarios críticos en el entorno de Spring Boot:
 
-- **Aislamiento Multi-tenancy:** Se evalúa y corrobora de forma estricta que un usuario logueado perteneciente a una compañía no puede acceder ni recuperar eventos que pertenecen al dominio de otra distinta.
-- **Flujo Operativo Completo:** Se simula el recorrido integral donde un administrador interacciona con los endpoints REST enviando *payloads* validados para crear un Evento corporativo. Esta integración confirma que todos los mecanismos de autorización y recuperación de información están operando sinérgicamente en los contextos principales.
-
-
+- **Aislamiento Multi-tenancy:** Se validó con éxito que un usuario perteneciente a la "Company B" no tiene autorización para acceder a los recursos o datos de la "Company A". Esta prueba es fundamental para garantizar el cumplimiento normativo y la privacidad de cada organización cliente dentro de la infraestructura compartida.  
+- **Flujo de Chats:** Se comprobó la capacidad del sistema para crear canales de comunicación y enviar mensajes de forma reactiva, asegurando que la lógica de mensajería interna sea consistente y persistente.
+- **Flujo de Anuncios:** Se evaluó el ciclo de vida completo de los comunicados oficiales, incluyendo la creación, edición y la capacidad de dejar comentarios. Esta prueba confirma que las interacciones de los colaboradores con los anuncios corporativos se procesan sin errores de integridad.
+- **Flujo de Eventos:** Se validó la gestión operativa de la agenda institucional, permitiendo crear, editar y eliminar eventos de manera fluida. Se verificó que los cambios de estado en las actividades se reflejen correctamente en la base de datos centralizada.
 
 <p align="center">
-  <img src="https://i.imgur.com/rC1N1xt.png" alt="Descripción">
+  <img src="https://i.imgur.com/eETh5Ds.png" alt="Descripción">
 </p>
+
 **Aplicación Móvil**
 
-Adicionalmente a las pruebas de interoperabilidad y *multi-tenancy* realizadas en el entorno de Spring Boot, se implementaron pruebas de integración en el ecosistema móvil para asegurar que las distintas capas y módulos de la aplicación en Flutter operen de forma sinérgica al interactuar entre sí.
+Se han validado satisfactoriamente los siguientes flujos de integración en los módulos core:
 
-- **Integración Core (`Facade syncs both modules`):** Se desarrolló una prueba específica para evaluar el flujo de integración mediante el uso del patrón Facade. Esta prueba verifica las llamadas conjuntas a los repositorios de obtención de eventos y anuncios, simulando de manera precisa el proceso de sincronización de datos de la interfaz de usuario.
+- **Flujo de Eventos corporativos:** Se comprobó la capacidad de la aplicación para gestionar el ciclo de vida de las actividades, permitiendo crear, editar y eliminar eventos dentro de la agenda organizacional de forma fluida.
+- **Interacción en Anuncios:** Se evaluó la integración de las funciones de comunicación oficial, confirmando que los procesos de creación, edición y la gestión de comentarios en los anuncios se ejecutan sin errores de sincronización.
 
 <p align="center">
-  <img src="https://i.imgur.com/T03URRv.png" alt="Descripción">
+  <img src="https://i.imgur.com/NHazb88.png" alt="Descripción">
 </p>
+
 
 
 
@@ -240,10 +243,14 @@ Se han ejecutado pruebas integrales que validan la respuesta del sistema en los 
 
    
 
-   *Link del video:*  https://shorturl.at/LZBGu
+   *Link del video:*  https://shorturl.at/0ugjH
    Inicio 00:00 		Fin: 00:10
 
    <img src="https://i.imgur.com/hh2gAQI.png" alt="crear chat">
+
+   
+
+   <img src="https://i.imgur.com/bFIMTQe.png" alt="crear chat">
 
    
 
@@ -254,7 +261,11 @@ Se han ejecutado pruebas integrales que validan la respuesta del sistema en los 
 
    
 
-   *Link del video:*  https://shorturl.at/LZBGu
+   *Link del video:*  https://shorturl.at/0ugjH
    Inicio 00:10 		Fin: 00:34
 
 <img src="https://i.imgur.com/dXVz6K5.png" alt="crear chat">
+
+
+
+<img src="https://i.imgur.com/VIGAK7a.png" alt="crear chat">

@@ -9,8 +9,11 @@
 - **Resultado:** El flujo se vuelve lineal y eficiente, sustituyendo la frustración por sentimientos de confianza, orden y compromiso proactivo.
 
 <p align="center">
-  <img src="https://i.imgur.com/TCNr03W.png" alt="To-Be">
+  <img src="https://i.imgur.com/0szS9X2.jpeg" alt="To-Be">
 </p>
+
+*Link de la imagen:*  https://i.imgur.com/0szS9X2.jpeg
+
 
 
 
@@ -414,21 +417,22 @@
     <td style="border: 1px solid black; padding: 8px; text-align: center;">US14</td>
     <td style="border: 1px solid black; padding: 8px; text-align: center;">gerente</td>
     <td style="border: 1px solid black; padding: 8px; text-align: center;">5</td>
-    <td style="border: 1px solid black; padding: 8px; text-align: center;">Publicacion de anuncios</td>
+    <td style="border: 1px solid black; padding: 8px; text-align: center;">Publicación de anuncios</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: left; font-weight: bold;">Title</td>
-    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left;">Confirmaciones de lectura</td>
+    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left;">Seguimiento de lectura</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: left; font-weight: bold;">Description</td>
-    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left;">Como gerente, quiero ver confirmaciones de lectura de anuncios para saber quién ha leído la información importante.</td>
+    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left;">Como gerente, quiero tener seguimiento de lectura de anuncios para saber quién ha leído la información importante.</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: left; font-weight: bold; vertical-align: top;">Acceptance Criteria</td>
-    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left; vertical-align: top;">Feature: Confirmaciones de lectura<br><br>Escenario: Ver reporte de lecturas de un anuncio<br>Dado que el gerente ha publicado un anuncio prioritario,<br>Cuando selecciona el anuncio,<br>Entonces el sistema muestra la lista de empleados que han leído el anuncio,</td>
+    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left; vertical-align: top;">Feature: Seguimiento de lectura<br><br>Escenario: Ver reporte de lecturas de un anuncio<br>Dado que el gerente ha publicado un anuncio prioritario,<br>Cuando selecciona el anuncio,<br>Entonces el sistema muestra la lista de empleados que han leído el anuncio,</td>
   </tr>
 </table>
+
 
 ---
 
@@ -993,7 +997,7 @@
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: left; font-weight: bold;">Description</td>
-    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left;">Como desarrollador, quiero proteger las rutas de la API mediante control de acceso basado en roles y protecciones de middleware para bloquear el acceso no autorizado.</td>
+    <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left;">Como desarrollador, quiero proteger las rutas de la API mediante control de acceso basado en roles.</td>
   </tr>
   <tr>
     <td style="border: 1px solid black; padding: 8px; text-align: left; font-weight: bold; vertical-align: top;">Acceptance Criteria</td>
@@ -1026,6 +1030,7 @@
     <td colspan="3" style="border: 1px solid black; padding: 8px; text-align: left; vertical-align: top;">Feature: Mantener la sesión iniciada<br><br>Escenario: Regresar a la plataforma sin volver a iniciar sesión<br>Dado que el empleado ha iniciado sesión<br>Cuando vuelva a la aplicación sin cerrar sesión <br>Entonces su sesión es válida y sigue conectado<br><br>Escenario: Cerrar sesión manually<br>Dado que un empleado tiene la sesión iniciada<br>Cuando quiera cerrar sesión,<br>Entonces la sesión es cerrada.</td>
   </tr>
 </table>
+
 
 
 <table style="width: 100%; border-collapse: collapse; margin: 0 auto;">
@@ -1420,7 +1425,7 @@ Link del tablero en Trello: https://goo.su/iCaq6
 | 11    | US11    | Priorización de anuncios                                     | 5            |
 | 12    | US12    | Edición de anuncios                                          | 5            |
 | 13    | US13    | Eliminación de anuncios                                      | 3            |
-| 14    | US14    | Confirmaciones de lectura                                    | 5            |
+| 14    | US14    | Seguimiento de lectura                         | 5            |
 | 15    | US15    | Comentarios en anuncios                                      | 5            |
 | 16    | US16    | Subir imágenes en anuncios                                   | 5            |
 | 17    | US17    | Visualizar imágenes en anuncios                              | 5            |
